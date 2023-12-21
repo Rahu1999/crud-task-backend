@@ -1,0 +1,28 @@
+{
+  "name": "crud-task-backend",
+  "version": "1.0.0",
+  "description": "crud-task-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahuledulab/crud-task-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahuledulab/crud-task-backend/issues"
+  },
+  "homepage": "https://github.com/Rahuledulab/crud-task-backend#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
