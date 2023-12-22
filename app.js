@@ -44,6 +44,13 @@ Task - Create, Update, ReadTaskById, ReadAllTask
         .then(function(lists) {res.send(lists)})
         .catch(function(error) {console.log(error)});
 });*/
+app.get('/', (req, res) => {
+    try{
+        res.status(200).json({status:true, message: "task manager server is running"});
+    }catch(e){
+        res.status(500);
+    }
+});
 
 app.get('/tasklists', (req, res) => {
     TaskList.find({})
